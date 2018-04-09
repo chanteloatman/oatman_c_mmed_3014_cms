@@ -1,0 +1,45 @@
+<?php
+
+  //   function createUser($fname, $username, $password, $email, $userlvl) {
+	// 	include('connect.php');
+	// 	$userString = "INSERT INTO tbl_user VALUES(NULL,'{$fname}', '{$username}', '{$password}', '{$email}', NULL, '{$userlvl}', 'no')";
+	// 	//echo $userString;
+	// 	$userQuery = mysqli_query($link, $userString);
+	// 	if($userQuery) {
+	// 		redirect_to("admin_index.php");
+	// 	}else{
+	// 		$message = "There was a problem setting up this user.  Maybe reconsider your hiring practices.";
+	// 		return $message;
+	// 	}
+	// 	mysqli_close($link);
+	// }
+
+	function editMovie($id, $fname, $username, $password, $email) {
+		include('connect.php');
+		$updatestring = "UPDATE tbl_user SET user_fname='{$fname}', user_name='{$username}', user_pass='{$password}', user_email='{$email}' WHERE user_id={$id}";
+		//echo $updatestring;
+		$updatequery = mysqli_query($link, $updatestring);
+		if($updatequery){
+			redirect_to("admin_index.php");
+		}else{
+			$message = "There was a problem changing your information, please contact your web admin.";
+			return $message;
+		}
+		mysqli_close($link);
+	}
+
+//Function to Delete a Movie
+	function deleteMovie($id) {
+		//echo $id;
+		include('connect.php');
+		$delstring = "DELETE FROM tbl_movies WHERE movies_id={$id}";
+		$delquery = mysqli_query($link, $delstring);
+		if($delquery){
+			redirect_to("../changemade_delete.php"); //go changemade_delete page to inform that change has been made
+		}else{
+			$message = "Please Try Again..."; //if change doesn't work
+			return $message;
+		}
+		mysqli_close($link);
+	}
+?>

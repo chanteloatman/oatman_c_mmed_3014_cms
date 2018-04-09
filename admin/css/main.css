@@ -1,0 +1,85 @@
+
+/* GENERAL STYLING */
+  /* hide show */
+    .hidden {display: none;}
+  /* text styles */
+    .paraStyle{ font-family: 'Parisienne', cursive; color: #ffffff; font-size: 20px;}
+    .promoStyle{ font-family: 'Parisienne', cursive; color: #000; font-size: 24px; text-align: left; margin-left: 25px;}
+    .headStyle{ font-family: 'Bungee Inline', cursive; font-size: 30px; text-align: center; color: #000;}
+    .mainHeadStyle{ font-family: 'Bungee Inline', cursive; color: #ffffff; background: #b30000;}
+    .loginParaPromo {text-align: center; color: #000;}
+  /* button styles */
+    .adminButtons{ text-decoration: none; background: #007399; color: #fff; border-radius: 5px; padding: 10px 20px 10px 20px; font-family: 'Parisienne', cursive; font-size: 16px;}
+    .submitButton{ text-decoration: none; background: #007399; color: #fff; border-radius: 5px; padding: 10px 20px 10px 20px; font-family: 'Parisienne', cursive; font-size: 16px;}
+    #backAdminButton{text-decoration: none; background: #007399; color: #fff; border-radius: 5px; font-family: 'Parisienne', cursive; font-size: 16px; text-align: center; padding: 5px 20px 5px 20px;}
+  /* background styles */
+    .bgStyle{background-color:#00ace6;}
+    .container{background: #e6f9ff; border: double 10px #00ace6;}
+    /*.container{background: #ffffe6; border: solid 15px #b30000;}*/
+ /*label input styles*/
+    label{margin: 0 auto; color: #000; font-family: 'Bungee Inline', cursive; font-size: 18px;}
+    input{border: double 4px #00ace6; border-radius: 20px; text-decoration: none; margin-left: 10px; padding: 5px 10px 5px 10px; width: 38%; cursor: text;}
+
+/* ...NAV... */
+  .adminLink{float: right; margin-top: -63px; margin-right: 40px; padding: 10px 20px 5px 20px; font-family: 'Parisienne', cursive; font-size: 18px;  text-decoration: none; background: #007399; color: #fff; border-radius: 5px;}
+  .adminLinkFoot{ margin-left: 5%; padding: 10px 20px 5px 20px; font-family: 'Parisienne', cursive; font-size: 18px;  text-decoration: none; background: #007399; color: #fff; border-radius: 5px;}
+  /* nav filter nav style */
+  .filterNav{ background-color: #00ace6; text-align: center; padding: 20px 0px 20px 0px;}
+  .filterNav li { display: inline; padding: 20px;}
+  .filterNav li a { text-decoration: none; color: #fff; font-family: 'Parisienne', cursive; padding: 20px; font-size: 20px;}
+  .filterNav li a:hover{}
+
+/* ...MOVIE HOME... */
+  /* movie covers */
+    .coverMain{ border: 7px double #000; width: 20%; border-radius: 10px;}
+    #movieHome{margin-left: 5%;}
+    #movieHome h2{font-family: 'Bungee Inline', cursive; font-size: 16px; color: #000;}
+    #movieHome p{font-family: 'Parisienne', cursive; font-size: 16px;}
+    #movieHome a{font-family: 'Parisienne', cursive; text-decoration: none; background: #007399; color: #fff; padding: 5px; border-radius: 5px;}
+    #movieHome a:hover{box-shadow: 2px 3px 3px rgba(0,0,0,0.7);}
+    #homeStyle{padding-bottom:10px; }
+
+/* ...DETAILS STYLE... */
+    #detailsStyle{background: #00ace6; color: #fff;}
+    .DetailsTitleStyle{color: #fff; font-family: 'Bungee Inline', cursive; font-size: 24px;}
+    #imagesDetails{margin: 0 auto;}
+    .coverDetails{max-width: 300px; margin: 0 auto; margin-top: 20px; border: 7px double #000; border-radius: 10px;}
+    .backDetails{color: #fff; text-decoration: none; background: #00ace6; margin-bottom: 20px; font-family: 'Parisienne', cursive; background: #007399; color: #fff; border-radius: 5px; padding: 10px 20px 10px 20px; margin-bottom: 15px;}
+    .backDetails:hover{box-shadow: 2px 3px 3px rgba(0,0,0,0.7);}
+    .textDetails{margin-left: 10px;}
+    #aboutDetails{margin-left: 10px;}
+
+    video[poster]{max-width: 100%; cursor: pointer; margin-top: 50px;}
+    video{width: 100%;}
+
+/* ...ADMIN LOGIN PAGE... */
+    #bgLoginPage{background: #00ace6;}
+    #bgLogin{background: #e6f9ff; border: double 10px #00ace6; padding: 30px 30px 40px 30px; margin-top: 40px;}
+    #loginContainer{margin-bottom: 50px; padding-bottom: 40px;}
+    .loginFormLabel{margin: 0 auto; color: #000; font-family: 'Bungee Inline', cursive; font-size: 18px;}
+    .loginFormInput{border: double 4px #00ace6; border-radius: 20px; text-decoration: none; margin-left: 10px; padding: 5px 10px 5px 10px; width: 38%; cursor: text;}
+    #passInput{margin-bottom: 10px;}
+/* ADMIN HOME PAGE */
+    #indexAdminContainer{margin-bottom: 50px; padding-bottom: 40px;}
+    #adminPageButtons{margin-left: 25px;}
+
+/* ADMIN PAGE EDIT */
+    #editAllStyle{ padding: 30px 30px 40px 30px;}
+    #changeMadeStyle{padding: 20px 20px 20px 0px; }
+    .backEdit{margin-left: 5%; text-decoration: none; background: #007399; color: #fff; border-radius: 5px; font-family: 'Parisienne', cursive; font-size: 16px; text-align: center; padding: 5px 20px 5px 20px;}
+    #saveContentButton{margin-bottom: 25px;}
+    hr{background-color: #007399; height: 1.5px; border: 0; margin-bottom: 25px;}
+/* ADMIN PAGE DELETE */
+.deleteMovieButton{background: #007399; color: #fff; text-decoration: none; font-family: 'Parisienne', cursive; border-radius: 5px; padding: 1px 3px 1px 3px; cursor: pointer;}
+#deleteMoviePageStyle{ padding: 10px 10px 10px 10px; font-family: 'Bungee Inline', cursive;}
+.deleteMovButton{margin: 5px 0px 5px 0px;}
+/* ADMIN PAGE ADD background: #b30000; background: #ffffe6; */
+#addMovieBG{background: #00ace6}
+#addMovieContainer{background: #e6f9ff; border: double 10px #00ace6;}
+#addMovieHead{padding: 20px; Margin }
+.addMovieForm{margin-left: 10%; margin-right: 10%;}
+.addMovieLabel{color: #000; font-family: 'Bungee Inline', cursive; font-size: 18px;}
+.addMovieInput{border: double 4px #00ace6; border-radius: 20px; text-decoration: none; margin-left: 10px; padding: 5px 10px 5px 10px; width: 38%; cursor: text;}
+.addMovieFile{margin-left: 10px; background: #007399; padding: 5px; border-radius: 10px;}
+#addMovieSubmit{font-family: 'Parisienne', cursive; text-decoration: none; background: #007399; color: #fff; padding: 5px 10px 5px 10px; border-radius: 5px; font-size:18px;}
+#addMovieSubmit:hover{box-shadow: 2px 3px 3px rgba(0,0,0,0.7); cursor: pointer;}
